@@ -10,16 +10,8 @@
 
     <repositories>
         <repository>
-            <id>sarxos-repo</id>
-            <url>http://repo.sarxos.pl/maven2</url>
-        </repository>
-        <repository>
             <id>OpenIMAJ maven repository</id>
             <url>http://maven.openimaj.org/</url>
-        </repository>
-        <repository>
-            <id>OpenIMAJ snapshots maven repository</id>
-            <url>http://snapshots.openimaj.org</url>
         </repository>
     </repositories>
 
@@ -33,11 +25,6 @@
             <groupId>org.openimaj</groupId>
             <artifactId>faces</artifactId>
             <version>1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-            <version>1.0</version>
         </dependency>
     </dependencies>
 
